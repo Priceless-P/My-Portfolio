@@ -106,12 +106,17 @@ nav ul li {
   }
 }
 */
-.first {
-  background-color: #420516;
-  width: 100%;
-  min-height: 400px;
-  color: white;
-  font-family: "Syne Mono", monospace;
+.hero{
+  display:flex;
+  align-item: center;
+  justify-content:center;
+  margin:auto;
+  gap:2.5rem;
+  max-width:68.75rem;
+}
+.hero img{
+  height:37.5rem;
+  width:37.5rem;
 }
 .name {
   /*   padding:10px; */
@@ -121,7 +126,8 @@ nav ul li {
 .nameParagraph {
   font-size: 30px;
   padding: 8px;
-  text-align: center;
+  text-align: right;
+  padding-top:5rem;
 }
 .skills {
   /*background-color: #7d1935;*/
