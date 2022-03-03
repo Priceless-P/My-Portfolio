@@ -120,14 +120,15 @@ nav ul li {
 }
 .name {
   /*   padding:10px; */
-  font-weight: bold;
+  font-weight: var(--bolder-font);
+  color: var(--primary-color);
   font-size: 70px;
 }
 .nameParagraph {
   font-size: 30px;
-  padding: 8px;
+  padding-top:5rem; 
   text-align: right;
-  padding-top:5rem;
+/*   padding-top:5rem; */
 }
 .skills {
   /*background-color: #7d1935;*/
