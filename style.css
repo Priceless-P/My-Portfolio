@@ -19,6 +19,7 @@ to this section's matching END comment to see page-specific styles.
   --bolder-font: 900rem;
   --margin-bottom: 0.5rem;
   --primary-shadow: #59473e;
+  --transition: 0.3s;
 }
 
 html {
@@ -51,19 +52,24 @@ body {
   align-item: center;
   justify-content: space-between;
   background-color: var(--bg-color);
-  padding: 1rem 3.
+  padding: 1rem 3.5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+.navigation h1{
+  color: var (--primary-color);
+}
 .navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
+  color: var(--primary-color);
+  transition: var(--transition);
 }
 
 .navigation a:hover {
-  background: #1565c0;
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
+/*
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
@@ -85,7 +91,7 @@ body {
     border-bottom: none;
   }
 }
-
+*/
 .first {
   background-color: #420516;
   width: 100%;
