@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css" />
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- Import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
@@ -86,11 +86,11 @@
 </div>
 <!--     skills section -->
     <section class="skills">
-    <nav class="nav nav-tabs nav-justified">
+      <div class ="container">
+        <nav class="nav nav-tabs nav-justified">
   <a class="nav-item nav-link active" data-toggle="tab" href="#home">Home</a>
   <a class="nav-item nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
   <a class="nav-item nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
-  <a class="nav-item nav-link disabled" data-toggle="tab" href="#menu3">Disabled</a>
 </nav>
 
 <div class="tab-content">
@@ -100,16 +100,15 @@
   </div>
   <div id="menu1" class="tab-pane fade">
     <h3>Menu 1</h3>
-    <p>Some content in menu 1.</p>
+    <p class= "menu">Some content in menu 1.</p>
   </div>
   <div id="menu2" class="tab-pane fade">
     <h3>Menu 2</h3>
-    <p>Some content in menu 2.</p>
+    <p class= "menu" style = "color:black;">Some content in menu 2.</p>
   </div>
-  <div id="menu3" class="tab-pane fade">
-    <h3>Menu 3</h3>
-    <p>Some content in menu 3.</p>
-  </div>
+      </div>
+    
+  
 </div>
 </section>
 <!--     project section -->
