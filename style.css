@@ -8,17 +8,40 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
 /* Basic page style resets */
-root:{
+:root:{
   --bg-color:#ffffff;
   --primary-color:#800a0a;
   --secondary-color: #000000;
   --font-family: 'Roboto Condensed', sans-serif;
   --line-height:1.7rem;
-  --bold-font:400rem;
-  --bolder-font: 700
+  --normal-font:400rem;
+  --bold-font:700rem;
+  --bolder-font: 900rem;
+  --margin-bottom:0.5rem;
+  --primary-shadow:#59473e;
 }
 
-/* Import fonts */
+html{
+  scroll-behaviour:smooth;
+}
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+ul{
+list-style-type:none;
+}
+a{
+text-decoration:none;
+color:var(--primary-color);
+}
+a:hover{
+  color: var(--secondary-color);
+}
+body{
+font-family: 
+}
 .navigation {
   display: flex;
   flex-flow: row wrap;
