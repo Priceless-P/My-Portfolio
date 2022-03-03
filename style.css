@@ -83,6 +83,10 @@ body{
   padding: 8px;
   text-align:center:
 }
+.projects{
+  background-color:#7D1935;
+  color:black;
+}
 
 /* Our remix on glitch button */
 .btn--remix {
