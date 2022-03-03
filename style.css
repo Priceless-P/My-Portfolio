@@ -8,13 +8,14 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
 /* Basic page style resets */
-body {
-  font-family: "Syne Mono", monospace;
-  color: black;
-  background-color: #420516;
-}
-* {
-  box-sizing: border-box;
+root:{
+  --bg-color:#ffffff;
+  --primary-color:#800a0a;
+  --secondary-color: #000000;
+  --font-family: 'Roboto Condensed', sans-serif;
+  --line-height:1.7rem;
+  --bold-font:400rem;
+  --bolder-font: 700
 }
 
 /* Import fonts */
