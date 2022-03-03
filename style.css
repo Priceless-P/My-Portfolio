@@ -56,19 +56,19 @@ body {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navigation h1 {
+nav h1 {
   color: var (--primary-color);
 }
-.navigation a {
+nav a {
   color: var(--primary-color);
   transition: var(--transition);
 }
 
-.navigation a:hover {
+nav a:hover {
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
 }
-.navigation ul {
+nav ul {
   display: flex;
   gap: 1.9rem;
 }
