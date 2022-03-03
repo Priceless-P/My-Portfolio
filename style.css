@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
 /* Basic page style resets */
-:root: {
+:root {
   --bg-color: #ffffff;
   --primary-color: #b02912;
   --secondary-color: #000000;
@@ -56,8 +56,8 @@ body {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav h1 {
-  color: var (--primary-color);
+.navigation h1 {
+  color: var(--primary-color);
 }
 nav a {
   color: var(--primary-color);
