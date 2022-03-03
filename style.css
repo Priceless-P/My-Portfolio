@@ -16,7 +16,7 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #69F7BE;
+  --color-bg: #fcfcfc;
   --color-text-main: #000000;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
@@ -141,16 +141,7 @@ body {
 }
 
 /* Very light scaling for our illustration */
-.illustration {
-  max-width: 100%;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
-}
 
-/* Instructions */
-.instructions {
-  margin: 1rem auto 0;
-}
 
 /* Button - Add it from the README instructions */
 button,
