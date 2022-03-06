@@ -179,13 +179,12 @@ button a {
   box-shadow: 0 3px 10px var(--primary-shadow);
   
 }
-.write-up {
+/* .write-up {
   text-align:center;
   line-height: var(--line-height);
   padding-top: 25px;
-}
+} */
 .writeUpCard p{
-  text-shadow: 2px 2px 2px var(--primary-shadow);
   text-align:center;
   font-size:30px;
   width:100%;
