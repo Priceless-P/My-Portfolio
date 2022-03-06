@@ -142,8 +142,8 @@ nav ul li {
   margin-top:2rem;
 }
 .projectPics {
-  width:55%;
-  height:60%;
+  width:70%;
+  height:50%;
 }
 .projectsContainer {
   display:flex;
@@ -167,6 +167,9 @@ nav ul li {
   text-align:center;
   padding:1rem;
   width:21.9rem;
+}
+button a {
+  color:white;
 }
 .card{
   background-color:#ffffff;
