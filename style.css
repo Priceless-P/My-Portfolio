@@ -168,6 +168,7 @@ nav ul li {
   padding:1rem;
   width:22rem;
 }
+
 button a {
   color:white;
 }
@@ -191,6 +192,11 @@ button a {
   padding:20px;
   margin:10px;
   height:auto;
+}
+.writeUpCard button{
+  margin:auto;
+  display:block;
+  
 }
 
 /******************************************************************************
