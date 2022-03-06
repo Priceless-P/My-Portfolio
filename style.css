@@ -193,11 +193,14 @@ button a {
   margin:10px;
   height:auto;
 }
-.writeUpCard a{
+.writeUpCard div{
   margin:auto;
   display:block;
   font-size: 20px;
   
+}
+.writeUpCard a{
+  display:inline;
 }
 footer{
   text-align: center;
