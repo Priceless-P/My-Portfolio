@@ -125,6 +125,7 @@ nav ul li {
   display:flex;
   align-item:center;
   justify-content:center;
+  background:grey;
 }
 .projectContainer p{
   padding:0.4rem;
