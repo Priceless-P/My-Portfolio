@@ -138,7 +138,25 @@ nav ul li {
 .projects {
   /*background-color: #b42b51;*/
   color: black;
-  padding-bottom: 35px;
+  padding: 32px 0;
+  margin-top:2rem;
+}
+.projectPics {
+  width:55%;
+  height:60%;
+}
+.projectsContainer {
+  display:flex;
+  align-item:center;
+  justify-content:center;
+}
+.projectTitle {
+  text-align:center;
+  margin-bottom:1rem;
+}
+.projectContainer{
+  text-align:center;
+  
 }
 .write-up {
   background-color: #e63e6d;
