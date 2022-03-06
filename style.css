@@ -125,7 +125,6 @@ nav ul li {
   display:flex;
   align-item:center;
   justify-content:center;
-  background:grey;
 }
 .projectContainer p{
   padding:0.4rem;
@@ -196,9 +195,9 @@ footer{
   .projectsContainer{
     flex-direction:column;
   }
-  .projectContainer{
-    width:20.88rem
-  }
+/*   .projectContainer{
+    width:45%;
+  } */
   .writeUpCard {
     font-size:26px;
   }
