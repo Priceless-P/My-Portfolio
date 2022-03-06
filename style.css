@@ -83,29 +83,6 @@ nav ul li {
   background-color: transparent;
   display: none;
 }
-/*
-@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .navigation {
-    flex-flow: column wrap;
-    padding: 0;
-  }
-  .navigation a {
-    text-align: center;
-    padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
-}
-*/
 .hero{
   display:flex;
   align-item: center;
@@ -180,11 +157,6 @@ button a {
   box-shadow: 0 3px 10px var(--primary-shadow);
   
 }
-/* .write-up {
-  text-align:center;
-  line-height: var(--line-height);
-  padding-top: 25px;
-} */
 .writeUpCard {
   text-align:center;
   font-size:30px;
@@ -205,6 +177,8 @@ button a {
 footer{
   text-align: center;
 }
-/******************************************************************************
-END Glitch hello-app default styles
-******************************************************************************/
+/* @media screen and (max-width:720){
+  nav{
+    padding:1.5rem 1rem;
+  }
+} */
