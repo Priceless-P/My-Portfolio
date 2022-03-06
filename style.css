@@ -176,10 +176,12 @@ button a {
   border-radius:11px;
   padding:20px;
   margin:10px;
-  box-shadow: 0 3px 10 var(--primary-shadow);
+  box-shadow: 0 3px 10px var(--primary-shadow);
   
 }
 .write-up {
+  text-align:center;
+  line-height: var(--line-height);
   background-color: #e63e6d;
   padding-top: 25px;
 }
