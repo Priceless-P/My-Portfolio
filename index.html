@@ -119,7 +119,7 @@
       </div>
     </section>
     <!--     project section -->
-    <section class="projects name" id ="projects">
+    <section class="projects slider" id ="projects">
       <h2 class="text-center proTitle">PROJECTS</h2>
       
 <!--       first project -->
@@ -137,7 +137,9 @@
           <p class="projectDetails">
               Created using React, Material UI and hosted on Google Cloud.
             </p>
-          <a href ="#" target="_blank">See Project</a>
+          <button class="btn btn-danger">
+            <a href ="#" target="_blank">See Project</a>
+          </button>
         </div>
         
         <!--       second project -->
@@ -155,7 +157,9 @@
           <p class="projectDetails">
               Created using React, Material UI and hosted on Google Cloud.
             </p>
-          <a href ="#" target="_blank">See Project</a>
+          <button class="btn btn-danger">
+            <a href ="#" target="_blank">See Project</a>
+          </button>
         </div>
         
         <!--       third project -->
@@ -173,7 +177,9 @@
           <p class="projectDetails">
               Created using React, Material UI and hosted on Google Cloud.
             </p>
-          <a href ="#" target="_blank">See Project</a>
+          <button class="btn btn-danger">
+            <a href ="#" target="_blank">See Project</a>
+          </button>
         </div>
         
         <!--       fourth project -->
@@ -191,7 +197,9 @@
           <p class="projectDetails">
               Created using React, Material UI and hosted on Google Cloud.
             </p>
-          <a href ="#" target="_blank">See Project</a>
+          <button class="btn btn-danger">
+            <a href ="#" target="_blank">See Project</a>
+          </button>
         </div>
         
         <!--       fifth project -->
@@ -298,7 +306,10 @@ $(document).ready(function(){
   <script type="text/javascript">
     $(document).ready(function(){
       $('.sliders').slick({
-        setting-name: setting-value
+         slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
       });
     });
   </script>
