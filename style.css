@@ -177,8 +177,8 @@ button a {
 footer{
   text-align: center;
 }
-/* @media screen and (max-width:720){
-  nav{
-    padding:1.5rem 1rem;
+@media screen and (max-width:720){
+  .navMenu{
+    display:block;
   }
-} */
+}

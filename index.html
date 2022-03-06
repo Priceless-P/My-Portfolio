@@ -48,25 +48,31 @@
   </head>
 
   <body>
-    <nav class="navigation">
-      <h1>Prisca Maduka</h1>
-      <ul>
-        <li>
-          <a href="#">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Prisca Maduka</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li>
-          <a class="" href="#">Skills</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
         </li>
-        <li>
-          <a href="#">Projects</a>
-        </li>
-        <li>
-          <button class="navbar-toggler navMenu">
-            <ion-icon class="bars" name="menu-outline"></ion-icon>
-          </button>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
         </li>
       </ul>
-    </nav>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
     <!-- This is the start of content for our page -->
     <section class="hero">
       <img src="#" alt="AboutMe" />
