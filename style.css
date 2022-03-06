@@ -166,7 +166,7 @@ nav ul li {
 .projectContainer{
   text-align:center;
   padding:1rem;
-  width:21.9rem;
+  width:22rem;
 }
 button a {
   color:white;
@@ -182,11 +182,16 @@ button a {
 .write-up {
   text-align:center;
   line-height: var(--line-height);
-  background-color: #e63e6d;
   padding-top: 25px;
 }
-.menu {
-  color: black !important;
+.writeUpCard p{
+  text-shadow: 2px 2px 2px var(--primary-shadow);
+  text-align:center;
+  font-size:30px;
+  width:100%;
+  padding:20px;
+  margin:10px;
+  height:auto;
 }
 
 /******************************************************************************
