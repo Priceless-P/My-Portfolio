@@ -185,7 +185,7 @@ button a {
   line-height: var(--line-height);
   padding-top: 25px;
 } */
-.writeUpCard p{
+.writeUpCard {
   text-align:center;
   font-size:30px;
   width:100%;
@@ -193,13 +193,14 @@ button a {
   margin:10px;
   height:auto;
 }
-.writeUpCard button{
+.writeUpCard a{
   margin:auto;
   display:block;
+  font-size: 20px;
   
 }
 footer{
-  text-align:center:
+  text-align: center;
 }
 /******************************************************************************
 END Glitch hello-app default styles
