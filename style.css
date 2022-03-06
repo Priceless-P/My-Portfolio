@@ -150,12 +150,30 @@ nav ul li {
   align-item:center;
   justify-content:center;
 }
-.projectTitle {
+.projectContainer p{
+  padding:0.4rem;
+}
+.proTitle{
   text-align:center;
   margin-bottom:1rem;
 }
+.projectTitle {
+  margin-bottom: var(--bottom-margin);
+}
+.projectTitle {
+  margin-bottom: var(--bottom-margin);
+}
 .projectContainer{
   text-align:center;
+  padding:1rem;
+  width:21.9rem;
+}
+.card{
+  background-color:#ffffff;
+  border-radius:11px;
+  padding:20px;
+  margin:10px;
+  box-shadow: 0 3px 10 var(--primary-shadow);
   
 }
 .write-up {
