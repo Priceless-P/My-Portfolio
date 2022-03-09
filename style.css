@@ -91,6 +91,7 @@ nav ul li a{
    
   font-weight: var(--bolder-font);
   color: var(--primary-color);
+  font-family: 'Lobster', cursive;
 }
 .text{
   color:black;
