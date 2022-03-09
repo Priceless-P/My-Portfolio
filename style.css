@@ -73,7 +73,11 @@ nav ul {
 }
 nav ul li {
   font-weight: var(--bold-font);
+  color:rgb(45, 85, 255);
 }
+nav ul li a{
+  color: blue !important;
+  }
 .navMenu {
   border: 0;
   font-size: 2rem;
