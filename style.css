@@ -139,6 +139,16 @@ nav ul li a{
   padding:1rem;
   width:22rem;
 }
+.bottomRight{
+  position: absolute;
+  top: 170px;
+  left: 16px;
+}
+  .noPad{
+    position: relative;
+  text-align: center;
+/*   color: white; */
+  }
 
 .noPad{
   padding-top:0;
