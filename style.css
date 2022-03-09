@@ -141,6 +141,7 @@ nav ul li {
   margin-top:0;
 }
 
+
 button a {
   color:white;
 }
@@ -184,6 +185,18 @@ footer{
   font-weight: var(--bolder-font);
   color: var(--primary-color);
     font-size: 30px;}
+  
+  .bottomRight{
+  position: absolute;
+
+  opacity:0;
+  right: 0;
+}
+  .noPad{
+    position: relative;
+  text-align: center;
+  color: white;
+  }
   .wrapper{
     float: "left";
   }
