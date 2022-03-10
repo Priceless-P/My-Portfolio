@@ -18,7 +18,7 @@ to this section's matching END comment to see page-specific styles.
   --bold-font: 700rem;
   --margin-bottom: 0.5rem;
   --primary-shadow: #59473e;
-  --transition: 0.3s;
+  
 }
 
 html {
@@ -98,9 +98,8 @@ nav ul li a{
   font-weight:bold;
 }
 
-} */
+
 .skills {
-  
   color: black;
   padding-bottom: 50px;
 }
@@ -206,11 +205,9 @@ footer{
   
   .bottomRight{
   position: absolute;
-background: rgb(0, 0, 0);
+ background: rgb(0, 0, 0);
   background: rgba(45, 85, 255, 0.1); /* Black see-through */
   color: #f1f1f1;
-  w
-  opacity:0;
   right: 0;
 }
   .noPad{
@@ -224,9 +221,6 @@ background: rgb(0, 0, 0);
   .projectsContainer{
     flex-direction:column;
   }
-/*   .projectContainer{
-    width:45%;
-  } */
   .writeUpCard {
     font-size:20px;
   }
