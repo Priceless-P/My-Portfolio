@@ -170,11 +170,14 @@ button a {
 }
 .writeUpCard {
   text-align:center;
-  font-size:30px;
+  
   width:100%;
   padding:20px;
   margin:10px;
   height:auto;
+}
+.writeUpCard p{
+  font-size:24px;
 }
 .writeUpCard div{
   margin:auto;
@@ -225,6 +228,9 @@ background: rgb(0, 0, 0);
     width:45%;
   } */
   .writeUpCard {
-    font-size:26px;
+    font-size:20px;
   }
+}
+.writeUpCard p{
+  font-size:20px;
 }
