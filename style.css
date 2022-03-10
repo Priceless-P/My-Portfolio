@@ -18,7 +18,6 @@ to this section's matching END comment to see page-specific styles.
   --bold-font: 700rem;
   --margin-bottom: 0.5rem;
   --primary-shadow: #59473e;
-  
 }
 
 html {
@@ -102,6 +101,7 @@ nav ul li a{
 .skills {
   color: black;
   padding-bottom: 50px;
+  font-family: var(--font-family);
 }
 .projects {
   
@@ -122,6 +122,10 @@ nav ul li a{
 }
 .projectContainer p{
   padding:0.4rem;
+}
+.projectContainer img{
+  
+  height:350px;
 }
 .proTitle{
   text-align:center;
